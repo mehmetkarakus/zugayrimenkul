@@ -82,6 +82,10 @@ footer .footer-logo img {
     background-color: #ffffff;
 }
 
+.bg-base-color-transparent {
+    background-color: rgb(250 241 214);
+}
+
 .border-color-base-color {
     border-color: #dcaf27 !important;
 }
