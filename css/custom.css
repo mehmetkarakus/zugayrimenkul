@@ -82,6 +82,33 @@ footer .footer-logo img {
     background-color: #ffffff;
 }
 
+.border-color-base-color {
+    border-color: #dcaf27 !important;
+}
+
+.text-base-color, .btn-link.text-base-color {
+    color: #dcaf27;
+}
+
+.bg-base-color-light {
+    background-color: #f6f1e0;
+}
+
+.btn.btn-base-color:hover {
+    background-color: #dcaf27;
+    border-color: #dcaf27;
+    color: var(--white);
+}
+.btn.btn-base-color:hover, .btn.btn-base-color:active {
+    background-color: transparent;
+    border-color: #dcaf27;
+    color: #dcaf27;
+}
+.btn.btn-base-color {
+    background-color: #dcaf27;
+    color: var(--white);
+}
+
 footer {
     padding-top: 50px;
     padding-bottom: 110px;
