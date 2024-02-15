@@ -112,6 +112,11 @@ footer .footer-logo img {
     background-color: #dcaf27;
     color: var(--white);
 }
+.btn.btn-dark-gray:hover {
+    background-color: #dcaf27 !important;
+    color: #fff !important;
+    border-color: #dcaf27 !important;
+}
 
 footer {
     padding-top: 50px;
