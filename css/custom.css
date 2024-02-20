@@ -180,3 +180,157 @@ footer {
 .box-fancy [class*="col-"] {
     padding: 5% !important;
 }
+
+/*---------------------------------------------Media---------------------------------------------*/
+@media (max-width: 1440px) {
+
+    .fs-350 {
+        font-size: 15.875rem;
+        line-height: 21.875rem;
+    }
+
+}
+
+@media (max-width: 1024px) {
+
+    .footer__gr{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 30px;
+    }
+
+    .lg-fs-275 {
+        font-size: 12.188rem;
+        line-height: 17.188rem;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
+    header .navbar-brand .mobile-logo {
+        visibility: visible !important;
+        opacity: 1 !important;
+        width: 100% !important;
+    }
+
+    .md-mb-40px {
+        margin-bottom: 0px !important;
+    }
+
+    .w-80.lg-w-100 {
+        margin-bottom: 0;
+    }
+
+    .lg-right-0px {
+        right: 10px !important;
+    }
+    
+    .md-fs-250 {
+        font-size: 9.625rem;
+        line-height: 15.625rem;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .footer__gr{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 30px;
+    }
+
+    .footer__gr{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+    
+    .footer__pages--gr{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+    }
+
+    .bottom-tab{
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        justify-content: start;
+        gap: 15px;
+    }
+
+    .bottom-tab__photograph {
+        display: flex;
+        justify-content: start;
+    }
+
+    .pages__banner {
+        padding-top: 114px;
+    }
+
+    .pages__about--gr {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        gap: 20px;
+    }
+
+    .md-fs-250 {
+        font-size: 6.625rem;
+        line-height: 11.625rem;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .top-space-margin {
+        margin-top: 105px;
+    }
+
+    .col-auto {
+        width: 80%;
+    }
+
+    .mobile__pd--lf {
+        padding-left: 0 !important;
+        width: 20% !important;
+        justify-content: flex-end;
+    }
+    
+
+    .pages__container {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap !important;
+        justify-content: center;
+    }
+
+    .pages__banner {
+        padding-top: 105px;
+    }
+
+    .md-fs-250 {
+        font-size: 5.625rem;
+        line-height: 11.625rem;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .pages__banner {
+        padding-top: 95px;
+    }
+
+    .md-fs-250 {
+        font-size: 4.625rem;
+        line-height: 10.625rem;
+    }
+
+}
+
+
+
+
+
