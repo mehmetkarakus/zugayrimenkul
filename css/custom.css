@@ -122,3 +122,61 @@ footer {
     padding-top: 50px;
     padding-bottom: 110px;
 }
+
+.footer__gr{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.footer__pages--gr{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.footer__icons--df{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer__icons--df-location{
+    display: flex;
+    gap: 15px;
+}
+
+.fa-solid, .fab, .far, .fas {
+    line-height: 2;
+}
+
+.pages__about--gr{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.pages__about--df {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.pages__mission-vision--pd {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.pages__from-where--mt {
+    margin-top: 0 !important;
+}
+
+.main__mission-mg {
+    margin-bottom: 100px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.box-fancy [class*="col-"] {
+    padding: 5% !important;
+}
