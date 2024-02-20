@@ -181,6 +181,13 @@ footer {
     padding: 5% !important;
 }
 
+:root {
+    --alt-font: 'Urbanist', sans-serif;
+    --primary-font: 'Atkinson Hyperlegible', sans-serif;
+    --base-color: #dcaf27;
+    --dark-gray: #262b35;
+}
+
 /*---------------------------------------------Media---------------------------------------------*/
 @media (max-width: 1440px) {
 
